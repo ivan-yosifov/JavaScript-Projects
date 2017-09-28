@@ -1,0 +1,87 @@
+body{
+  font-family: Roboto, sans-serif;
+}
+
+/*==================================
+               SEARCH
+====================================*/
+#search-artist{
+  padding: 20px;
+}
+#search-artist .wrapper{
+  margin: 0 auto;
+}
+#search-artist .wrapper h1{
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  padding: 30px 0;
+  color: #00bcd4;
+  font-family: Pacifico, cursive;
+}
+
+input{
+  width: 100%;
+  border-radius: 50px;
+  -webkit-appearance: none;
+  border: 1px solid #d6d6d6;
+  padding: 10px 30px;
+  font-size: 21px;
+  font-weight: 300;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+input:focus{
+  outline: none;
+}
+
+::-webkit-input-placeholder{
+  color: #b8b8b8;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+/*==================================
+               ALBUMS
+====================================*/
+#album-list-container{
+  margin-top: 50px;
+}
+#album-list-container .album-item {
+  padding: 20px 0;
+  background: #f7f7f7;
+  border-top: 1px solid #dedede;
+  text-align: center;
+}
+#album-list-container .album-item .item-thmb{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+#album-list-container .album-item .item-title{
+  font-size: 20px;
+  padding: 20px 0 10px;
+  text-align: center;
+}
+#album-list-container .album-item .item-price{
+  text-align: center;
+  color: #009688;
+  font-size: 14px;
+}
+#album-list-container .album-item a{
+  background: #2196f3;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#no-match{
+  text-align: center;
+  display: none;
+}
